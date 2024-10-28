@@ -12,15 +12,15 @@
 <body>
     <div class="weather-app">
     <header>
-    <form class="search-form">
-     <input type="search" placeholder="Enter a city.." required  class="search search-form-input"/> 
+    <form class="search-form" id="search-form">
+     <input type="search" placeholder="Enter a city.." required id="search-form-input" class="search search-form-input"/> 
      <input type="submit" value="Search" class="search-form-button"/>
     </form>
     </header>
     <main>
     <div class="weather-app-data">
         <div>
-    <h1 class="weather-app-city">Paris</h1>
+    <h1 class="weather-app-city" id="city">Paris</h1>
     <p class="weather-app-details">
      Monday 01:40, broken clouds   
      <br/>
@@ -38,5 +38,6 @@
      Coded by <a href="https://github.com/Sizarh/" target="_blank">Zama M</a> and  is hosted on <a href="https://github.com/Sizarh/Weather-" target="_blank">GitHub</a> and wesite hosted on <a href="https://zama-weather.netlify.app/" target="_blank">Netlify</a>
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
